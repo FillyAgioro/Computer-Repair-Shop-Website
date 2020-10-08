@@ -1,0 +1,160 @@
+/* IMPORT */
+@import url(/dist/fonts/OpenSans*);
+@import url(/dist/icons/css/iconmonstr-iconic-font.css);
+/* COLOR PALLET */
+/* BODY */
+* {
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+::selection {
+  background-color: #bbe1fa;
+  color: #0f4c75;
+}
+
+body {
+  font-size: 100%;
+  font-family: "Open Sans", sans-serif;
+  color: #1b262c;
+  line-height: 1.8em;
+}
+
+.content-body {
+  margin: 1em auto;
+  max-width: 45em;
+  padding: 1em;
+  border: 5px solid #bbe1fa;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #0f4c75;
+  line-height: 2em;
+}
+
+/* HEADER */
+h1 {
+  color: #0f4c75;
+}
+
+img {
+  margin: 1em 0;
+  max-width: 100%;
+  filter: sepia(100%) hue-rotate(190deg) saturate(400%);
+}
+
+.title {
+  clear: both;
+  font-size: 1em;
+  line-height: 2em;
+  text-transform: uppercase;
+}
+
+.im-star-half {
+  float: left;
+  font-size: 3.8em;
+  margin-right: 0.1em;
+  color: #0f4c75;
+}
+
+/* CONTACT-LINKS */
+a {
+  color: #0f4c75;
+  text-decoration: none;
+}
+
+.contact-links {
+  text-align: center;
+  margin: 1em 0;
+}
+.contact-links__social-media {
+  background: #0f4c75;
+  color: #fff;
+  padding: 0.3em;
+  font-weight: bold;
+  font-size: 1.4em;
+  border-radius: 10px;
+  margin: 0.2em;
+  display: inline-block;
+}
+.contact-links__shop {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-size: 0.9em;
+  font-weight: bold;
+  padding: 0em;
+}
+.contact-links__shop:before {
+  content: "Address";
+}
+.contact-links__shop:checked:after {
+  content: ": To Get Address you have to contact us with given links";
+  color: #bbe1fa;
+}
+.contact-links__home {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-size: 0.9em;
+  font-weight: bold;
+  padding: 0em;
+}
+.contact-links__home:before {
+  content: "Home Repair";
+}
+.contact-links__home:checked:after {
+  content: ": To Get Home Repair go to the any given links";
+  color: #bbe1fa;
+}
+
+/* ABOUT US */
+blockquote {
+  border-left: 10px solid #0f4c75;
+  margin: 1em;
+  padding: 0.7em;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  border: 5px solid #0f4c75;
+}
+
+td {
+  border: 5px solid #bbe1fa;
+}
+
+.about__tweet {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+/* WHATSAPP ICON */
+.im-whatsapp {
+  font-size: 3em;
+  position: sticky;
+  bottom: 0.5em;
+  left: 30em;
+  color: #fff;
+  background: #25d366;
+  border-top: 0.35em solid #25d366;
+  border-bottom: 0.15em solid #25d366;
+  border-left: 0.22em solid #25d366;
+  border-right: 0.21em solid #25d366;
+  border-radius: 100%;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  background-color: #bbe1fa;
+  color: #1b262c;
+  font-weight: 600;
+}
