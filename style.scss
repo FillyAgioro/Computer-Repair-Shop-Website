@@ -29,7 +29,7 @@ $second-bg-color: #fff;
 
 body {
 	font: {
-		size: 100%;
+		size: 105%;
 		family: "Commissioner", sans-serif;
 	}
 
@@ -110,11 +110,11 @@ a {
 			font-size: 0.9em;
 			font-weight: bold;
 			padding: 0em;
-	
+
 			&:before {
 				content: "#{$button-name}";
 			}
-	
+
 			&:checked:after {
 				content: "#{$button-info}";
 				color: $border-color;
