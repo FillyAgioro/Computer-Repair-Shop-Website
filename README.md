@@ -1,70 +1,25 @@
-# Project Title
+# Computer Repair Service Website
 
-One Paragraph of project description goes here
+![Website Screenshot](dist/img/screenshot.png)
+
+This is template of Computer Repair Service website. I made this for easy to build website for people who just want to build simple website without any advance coding knowledge. This is simple easy and user friendly website with only html and css(you can also try SASS if you know that).
 
 ## 🏃️ Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### 📕 Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### ⬇️ Installing 
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## 🧪 Running the tests
-
-Explain how to run the automated tests for this system
-
-### ⚗️ Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### 👨‍🔬️ And coding style tests 
-
-Explain what these tests test and why
-
-```
-Give an example
-```
+- You just need to edit [`index.html`](index.html) file.
+- For more harder customization you can edit the [`style.css`](dist/style.css).
+- All the logo and image are in [`dist`](dist) folder.
+- If you want your website app icon work properly in webapp then edit [`manifest`](manifest.json) file.
+- **Note:** If you have knowledge of `SASS` you can also edit [`style.scss`](style.scss) file.
 
 ## 🔨️ Deployment
 
-Add additional notes about how to deploy this on a live system
+See the preview of the site :- https://crs-website.majesty.vercel.app/
 
 ## 🏗️ Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## 🔖️ Versioning
-
-The versions available, see the [tags on this repository](/releases).
+- [iconmonstr](https://iconmonstr.com/) - Icon
+- [Commissioner](https://github.com/kosbarts/Commissioner) - Fonts
 
 ## 🚸 Support
 
@@ -74,18 +29,8 @@ To support this project development please consider [DONATING](https://kutt.it/C
 
 Please read [`CONTRIBUTING.md`](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## ✏️ Authors
-
-* **Billie Thompson** - *Initial work* - [BT](/)
-
 See also the list of [contributors](@all) who participated in this project.
 
 ## 📄️ License
 
-This project is licensed under the MIT License - see the [`LICENSE.md`](LICENSE.md) file for details
-
-## 🙏️ Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+This project is licensed under the GPL-3.0 - see the [`LICENSE.md`](LICENSE.md) file for details.
